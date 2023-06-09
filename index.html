@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Organick</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader__row">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+      </div>
+    </div>
+      <header> 
+        <div class="page__header"> 
+          <h1 class="page__header-logo"> <a href="#"><img src="img/logo.png" alt="logo"></a></h1>
+          <nav class="page__header-nav">
+            <ul class="nav">
+              <li class="nav__item"> <a class="nav__link active" href="#"> Home</a></li>
+              <li class="nav__item"> <a class="nav__link" href="#about">About Us</a></li>
+              <li class="nav__item"> <a class="nav__link" href="#shop">Shop</a></li>
+              <li class="nav__item"> <a class="nav__link" href="#pages">Pages</a></li>
+              <li class="nav__item"> <a class="nav__link" href="#contact">Contact Us</a></li>
+            </ul>
+          </nav>
+          <div class="page__header-cart">
+            <div class="cart__open" ><img src="img/cart.svg" alt="cart">
+              Cart <span class="cart__count">0</span>
+            </div>
+          </div>
+          <div class="cart__overlay">
+            <div class="cart__wrap">
+              <button class="cart__close">&times;</button>
+              <div class="cart__items"></div>
+              <div class="cart__total">
+                Total:  <span class="total__amount">$0.00</span>
+              </div>
+              <button class="cart__checkout">Confirm</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main> 
+        <section class="banner"> 
+            <p class="banner__inscription inscription">Made with nature</p>
+            <h2 class="banner__title title-section">Welcome to the <br> world of nature <br> and organic.</h2>
+            <a class="section-button" href="#">
+              <div class="button button-yellow"> 
+                <span class="button__text">Explore Now</span>
+                <div class="button__arrow ">
+                  <img src="img/arrow.svg" alt="arrow" >
+                </div>
+              </div>
+            </a>
+        </section>
+        <section class="discount"> 
+          <div class="discount__item"><img src="img/discount1.png" alt="discount1">
+            <div class="discount__text first">
+              <h2>Natural!!</h2>
+              <p>Get Garden</p>
+              <p>Fresh Fruits</p>
+            </div>
+          </div>
+          <div class="discount__item"> <img src="img/discount2.png" alt="discount1">
+            <div class="discount__text second">
+              <h2>Offer!!</h2>
+              <p>Get 10% off</p>
+              <p>on Vegetables</p>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about"> 
+            <div class="about__img"> <img src="img/about1.png" alt="about"></div>
+            <div class="about__info">
+              <p class="inscription">About Us</p>
+              <h2 class="about__title title-section">We Believe in Organic <br> Foods For Strong Health</h2>
+              <p class="text">Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition.</p>
+              <ul class="info__list"> 
+                <li class="list__item"> 
+                  <h3>Organic Foods Only</h3>
+                  <p class="text">The Product that you ordered will be verified that we have or not if have we will start to move on with the next step.</p>
+                </li>
+                <li class="list__item"> 
+                  <h3>Quality Standards</h3>
+                  <p class="text">Once your product is packed it will be delivered to your nearby locality you can directly visit the to buy the product.</p>
+                </li>
+              </ul>
+              <a class="section-button" href="#">
+                <div class="button button-blue"> 
+                  <p class="button__text">Explore Now</p>
+                  <div class="button__arrow ">
+                    <img src="img/arrow.svg" alt="arrow" >
+                  </div>
+                </div>
+              </a>
+            </div>
+        </section>
+        <section class="product" id="shop">
+          <div class="product__title">
+            <p class="inscription">Organic</p>
+            <h2 class=" product__title title-section">Our Products</h2>
+          </div>
+          <div class="product__container"></div>
+        </section>
+        <section class="reviews">
+          <div class="reviews__wrap">
+            <p class=" reviews__inscription inscription">Testimonial</p>
+            <h2 class=" reviews__title title-section">What Our Customer Saying?</h2>
+            <div class="slider">
+              <div class="slide">
+                <img class="user-foto" src="img/user-foto.png" alt="avatar">
+                <div class="stars-wrap">
+                  <span class="star filled">&#9733;</span>
+                  <span class="star filled">&#9733;</span>
+                  <span class="star filled">&#9733;</span>
+                  <span class="star filled">&#9733;</span>
+                  <span class="star filled">&#9733;</span>
+                </div>  
+                <p class="comment">The quality of organic produce is extremely high, the service is second to none and the taste of the food <br> takes me back to my childhood when we were growing our own.</p>   
+                <h4 class="user-name">Sara Taylor</h4>
+                <span class="description">Consumer</span>
+              </div>
+              <div class="slide">
+                <img class="user-foto" src="img/user2.jpg" alt="avatar">
+                <div class="stars-wrap">
+                  <span class="star filled">&#9733;</span>
+                  <span class="star filled">&#9733;</span>
+                  <span class="star filled">&#9733;</span>
+                  <span class="star filled">&#9733;</span>
+                  <span class="star filled">&#9733;</span>
+                </div>  
+                <p class="comment">The quality of organic produce is extremely high, the service is second to none and the taste of the food <br> takes me back to my childhood when we were growing our own.</p>   
+                <h4 class="user-name">Sara Taylor</h4>
+                <span class="description">Consumer</span>
+              </div>
+              <a class="previous" >&#10094;</a>
+              <a class="next" >&#10095;</a>
+            </div>
+            <hr>
+            <div class="infographic">
+              <div class="infographic__item">
+                <p><span>100%</span> <br> Organic</p>
+              </div>
+              <div class="infographic__item">
+                <p><span>285</span> <br> Active Product</p>
+              </div>
+              <div class="infographic__item">
+                <p><span>385+</span> <br> Organic Orchads</p>
+              </div>
+              <div class="infographic__item">
+                <p><span>25+</span> <br> Years of Farming</p>
+              </div>
+            </div> 
+          </div>
+        </section>  
+        <section class="offer">
+          <div class="offer__header">
+            <div class="title__wrap">
+              <p class=" offer__inscription inscription">Offer Products</p>
+              <h2 class=" offer__title title-section">We Offer Organic for You</h2>
+            </div>
+            <a class="section-button" href="#">
+              <div class="button button-yellow"> 
+                <p class="button__text">View All products</p>
+                <div class="button__arrow ">
+                  <img src="img/arrow.svg" alt="arrow" >
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="offer__products"></div>
+        </section>
+        <section class="our-farm">
+          <div class="our-farm__img-wrap"><img src="img/our-farm.png" alt="farm"></div>
+          <div class="our-farm__description">
+            <div class="description">
+              <p class=" description__inscription inscription">Eco Friendly</p>
+              <h2 class=" description__title title-section">From our Farm <br>to your Home.</h2>
+              <ul class="description__list">
+                <li  class="description__list-item">
+                  <h4>Choose Your Products</h4>
+                  <p>In our listing, we have several collections of organic products. This is the place where you need to choose the product you want.</p>
+                </li>
+                <li class="description__list-item">
+                  <h4>Farmers will produce it</h4>
+                  <p>The Product that you ordered will be verified that we have or not if have we will start to move on with the next step.</p>
+                </li>
+                <li class="description__list-item">
+                  <h4>We Can Delivery too</h4>
+                  <p>If you are not comfortable going to the nearby market place we also will deliver your product to your doorstep.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="pages" id="pages"> 
+          <h2 style="display: none;">Pages</h2>
+          <div class="pages__item pages__item-first"> 
+            <a href="#">Fruit Juice</a>
+          </div>
+          <div class="pages__item pages__item-second"> 
+            <a href="#">Organic Food</a>
+          </div>
+          <div class="pages__item pages__item-third"> 
+            <a href="#">Nuts Cookies</a>
+          </div>
+        </section>
+        <section class="news">
+          <div class="news__header">
+            <div class="title__wrap">
+              <p class=" news__inscription inscription">News</p>
+              <h2 class=" news__title title-section">Discover The recent content about organic products</h2>
+            </div>
+            <a class="section-button" href="#">
+              <div class="button button-yellow news__button"> 
+                <p class="button__text">More News</p>
+                <div class="button__arrow ">
+                  <img src="img/arrow.svg" alt="arrow" >
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="news__container">
+            <div class="news__item">
+              <div class="news__text-wrap">
+                <span>Kristina Castle</span>
+                <h4>Everything You Need to Know About Organic</h4>
+                <p class="news__text">Organic farming is the only way that you still can <br> experience the real world.</p>
+                <a class="section-button" href="#">
+                  <div class="button button-yellow "> 
+                    <p class="button__text">View More</p>
+                    <div class="button__arrow ">
+                      <img src="img/arrow.svg" alt="arrow" >
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="news__item">
+              <div class="news__text-wrap">
+                <span>Alex Louis</span>
+                <h4>Organic Fruits: Surprising Benefits and Facts</h4>
+                <p class="news__text">The world of nature has grown on the principles of <br> health, ecology, and care.</p>
+                <a class="section-button" href="#"> 
+                  <div class="button button-yellow"> 
+                    <p class="button__text">View More</p>
+                    <div class="button__arrow ">
+                      <img src="img/arrow.svg" alt="arrow" >
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="form-block">
+          <h2 style="display: none;">Subscribe</h2>
+          <div class="form-block__title"> 
+            <p>Subscribe our</p>
+            <p>Newsletter</p>
+          </div>
+          <form action="send.php" method="post"> 
+            <input type="email" name="usermail" pattern="^([a-z0-9_-]+.)*[a-z0-9_-]+@[a-z0-9_-]+(.[a-z0-9_-]+)*.[a-z]{2,6}$" placeholder="Enter your email address" required>
+            <button type="submit" class="button button-blue"><span class="button__text">subscribe</span> <img src="img/arrow.svg" alt="arrow" ></button>
+          </form>
+        </section>
+      </main>
+      <footer> 
+        <div class="footer__main" id="contact">
+          <div class="footer__about-us"> 
+            <h1>Contact Us</h1>
+            <ul class="contact-list">
+              <li>
+                <span class="label">Email</span> <br><a href="mailto:needhelp@organick.com" id="mail">needhelp@organick.com</a>
+              </li>
+              <li>
+                <span class="label">Phone</span><br><a href="tel:12312541452" id="tel">123 (1254) 1452</a>
+              </li>
+              <li> 
+                <span class="label">Address</span><br>
+                <p>88 Road, Brooklyn Street, USA</p>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__networks"> <img src="img/footer-logo.svg" alt="logo">
+            <p>We are a popular and farming company aspiring to be a leader <br> in the Organic food industry.</p>
+            <div class="logo-networks">
+              <a href="#"><img src="img/facebook.svg" alt="facebook"></a> 
+              <a href="#"><img src="img/twitter.svg" alt="twitter"></a>
+              <a href="#"><img src="img/instagram.svg" alt="instagram"></a>
+              <a href="#"><img src="img/pinterest.svg" alt="pinterest"></a>
+            </div>
+          </div>
+          <div class="footer__utility-pages">
+            <h1>Utility Pages</h1><a href="#">Style Guide</a><a href="#">Protected</a><a href="#">Page Not Found</a><a href="#">Changelog</a><a href="#">Licenses</a>
+          </div>
+        </div>
+        <div class="footer__copyright">Copyright © Organick | Designed by VictorFlow - Powered by Webflow</div>
+      </footer>
+    </div>
+  </body>
+</html>
