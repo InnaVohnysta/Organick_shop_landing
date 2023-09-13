@@ -9,7 +9,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Yellowtail", cursive;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 /* preloader */ 
